@@ -1,0 +1,228 @@
+<html>
+    <head>
+        <title> programa de prueba </title>
+        <script src="js/funciones.js"></script>
+        <!--conexion carpeta css-->
+        <link rel="stylesheet" href="css/principal.css">
+        <!--conexion bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        <!-- Barra de navegacion -->
+        <nav class="navbar" style="background-color: bisque;">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> 
+                <img src="img/logo_190x114.png" alt="Bootstrap" width="70%" height="70%">  
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"> Inicio </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Nuestros productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Apoyo al cliente </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Trabaja con nosotros </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled"> v.1.0.0 </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        <!-- -------- -->
+        <!--Margen-->
+        <div id="margen">
+            COVID 19 ENTRE TODOS NOS CUIDAMOS
+        </div>
+        <!-- -------- -->
+        <!--Carrusel--> 
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <!-- aqui se elige la fuente de la imagen que se usara y al mismo tiempo las caracteristicas que se le dara.-->
+                <img src="img/leche_640x426.jpg" class="d-block w-100" alt="bootstrap" width="80%" height="80%">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> Saboree la calidad </h5>
+                  <p> con nuestros productos de origen natural sin alterar</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/vaca_640x427.jpg" class="d-block w-100" alt="bootstrap" width="80%" height="80%">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> Aseguramos Seguridad y libertad </h5>
+                  <p> a nuestras productoras criadas en libertad y con cariño que se merecen </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/manos_640x426.jpg" class="d-block w-100" alt="bootstrap" width="80%" height="80%">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5> Para protejer </h5>
+                  <p> a los niños de todo chile con la maxima higiene ofrecida </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- ----------------- -->
+        <div id="borde">
+            
+        </div>       
+        <!-- ---------- -->
+        <!--- Se crea carta -->
+        <div id="targeta">
+            <div class="container text-center">
+                <div class="row">
+
+                    <div class="col">
+                        <div class="card border-dark mb-3" style="width: 18rem;">
+                            <img src="img/heno.jpg" class="card-img-top" alt="...">
+                            <div id="minimargen"></div>
+                            <div class="card-body">
+                            <h5 class="card-title"> alimento de vacas 100% Chileno</h5>
+                            <p class="card-text"> aseguramos al 100% que las vacas productoras consumen alimento 100% chileno, lo que garantiza que se consumen alimentos frescos para que su familia reciba alimentos de maxima calidad</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-dark mb-3" style="width: 18rem;">
+                            <img src="img/vaca_carta.jpg" class="card-img-top" alt="...">
+                            <div id="minimargen"></div>
+                            <div class="card-body">
+                            <h5 class="card-title"> En contra de la sobreexplotacion animal </h5>
+                            <p class="card-text"> 8/10 productoras de leche sobreexplotan a sus productoras de leche desde el dia en que llegan hasta el dia en que mueren, nuestro equipo conformado por gente nacida en familias granjeras prosiguen las tradiciones de que estos animales circulen libremente por un campo de mas de 50 hectareas garantiza la vida plena de cada vaca.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card border-dark mb-3" style="width: 18rem;">
+                            <img src="img/leche_carta.jpg" class="card-img-top" alt="...">
+                            <div id="minimargen"></div>
+                            <div class="card-body">
+                            <h5 class="card-title">  leche de la mayor calidad de chile   </h5>
+                            <p class="card-text"> Catalogada como la mejor marca de leche que se produce en chile de grado 5 estrellas </p>
+                            <a href="#" class="btn btn-warning"> Ordena tu envio aqui! </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- --------- -->
+        <div id="borde"></div>
+        <!-- ---------- -->
+        
+        <!--- Acordeon -->
+        <div id="acordeon">
+          <div class="container text-center">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Fuerte desarrollo oseo para tus niños.
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong> No dejes de nutrirte </strong> un vaso de leche al dia puede aportar un crecimiento oseo favorable para la salud de tu niños, brindandoles <strong> de unos huesos fuertes y sanos. </strong> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    fortalece el sistema inmune
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    estudios afirman que el beber un vaso de leche al dia apoya al sistema inmunologico, a esto se le suma los beneficios de beber leche, <strong> ¡No dejes de nutrirte con la maravillosos beneficios de la leche!. </strong>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Por que beber nuestra leche?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    el sabor y la textura de nuestra leche sumado a su frescura afirmamos que estaras a salvo de todo tipo de enfermedad, aseguramos la seguridad ante todo con nuestro envasado de la mas alta calidad del mercado. 
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ------ -->
+        
+
+        <div id="borde"></div>
+
+
+
+
+        <!-- formulario-->
+        <div id="formulario">
+          <form>
+            <div class="mb-3">
+              <label for="correo" class="form-label">para recibir ofertas de nuestra parte por favor ingrese su correo electronico</label>
+              <input type="text" class="form-control" id="correo" aria-describedby="correo_help">
+              <div id="correo" class="form-text"> su correo sera utilizado solo para enviar ofertas de nuestra tienda, jamas sera usado por terceros</div>
+            </div>
+
+            <input type="button" class="btn btn-Danger" value="aceptar" onclick="HayCorreo()">
+          
+          </form>
+        
+
+            <div id="div_resultado"></div>
+        </div>
+        <!--- -------- -->
+
+        <!-- lista de grupo -->
+        <div id="lista_grupo">
+          <div class="container text-center">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action active" aria-current="true">
+                Pagina proveedores.
+              </button>
+              <button type="button" class="list-group-item list-group-item-action"> CowInc.sa </button>
+              <button type="button" class="list-group-item list-group-item-action"> ElRancho.inc </button>
+              <button type="button" class="list-group-item list-group-item-action"> Cartones Bellacruz </button>
+              
+            </div>
+          </div>
+        </div> 
+        
+    </body>
+
+</html>
